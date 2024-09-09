@@ -1,0 +1,16 @@
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 14px;
+    width: 80%;
+    margin: 0 auto;
+    width: 310px;
+    height: 310px;
+    box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.3);
+   
+}
+

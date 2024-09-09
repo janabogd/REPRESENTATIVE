@@ -1,0 +1,46 @@
+$primary-color: #694B86;
+$background-color: #E7E7E7;
+$heading-color: #000000;
+
+* {
+    margin: 12px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather";
+    font-size: 18px;
+    color: $heading-color;
+}
+
+.my_picture {
+    width: 316.75px;
+    height: 350px;
+    border-radius: 300px;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: "Londrina Solid";
+    font-size: clamp(44px, 5vw, 69px);
+    line-height: clamp(52px, 5vw, 82px);
+
+    span {
+        color: $primary-color;
+        margin: 0;
+    }
+}
+
+
+h5 {
+    font-family: "Londrina Solid";
+    font-size: 28px;
+}
+
+#email {
+    border-radius: 15px;
+    width: 347px;
+    height: 48px;
+}
+

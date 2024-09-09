@@ -1,0 +1,56 @@
+footer {
+
+    display: flex;
+    flex-direction: column;
+
+
+    hr {
+        height: 1px;
+        background-color: #000;
+        margin-top: 53px;
+    }
+
+    h5 {
+
+        margin-top: 82px;
+        margin-bottom: 22px;
+        margin-left: 0;
+    }
+
+    label {
+        margin: 0;
+    }
+
+    input {
+        margin-top: 0;
+        margin-left: 0;
+        padding: 10px;
+
+        @media (min-width: 1024px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .contactIcons {
+        display: flex;
+        justify-content: center;
+        margin-top: 88px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .email_input {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+        @media (min-width: 1024px) {
+            flex-direction: row;
+            align-items: center;
+           
+        }
+    }
+
+}

@@ -1,0 +1,18 @@
+.HireMeBtn,
+.ContactMeBtn,
+.DownloadBtn,
+.DownloadBtnTwo {
+    color: white;
+    background-color: $primary-color;
+    stroke: #000000;
+    border-radius: 15px;
+    padding: 10px 10px;
+    height: 48px;
+    width: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-family: "Merriweather";
+
+}
